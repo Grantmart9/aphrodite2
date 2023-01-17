@@ -1,0 +1,13 @@
+.preloader {
+    z-index: 9999;
+
+    .loader-element {
+        place-self: center;
+        height: 100px;
+        width: auto;
+        @include transition(blink 1.5s cubic-beizer(0, 0, 1, 1) infinite);
+        animation:blink 1.5s cubic-bezier(0, 0, 1, 1) infinite;
+    }
+}
+
+@keyframes blink { 50% { opacity: 0.5 }; }
