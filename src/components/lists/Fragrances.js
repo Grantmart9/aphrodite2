@@ -12,7 +12,7 @@ import Product_GX1007 from "images/Product_GX1007.jpg";
 export const FragrancesList = [
   {
     product_code: "GX1000",
-    description: "fragrances",
+    description: "fragrancess",
     brand: "Black opium",
     price: "R 1,890.00",
     image: <><img src={Product_GX1000}/></>,
